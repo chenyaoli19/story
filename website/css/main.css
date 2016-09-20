@@ -121,15 +121,36 @@ p{
 .section{
     text-align:center;
 }
+.section{
+    background-size: cover;
+}
+.slide{
+    background-size: cover;
+}
+
+/* Defining each section background and styles
+	* --------------------------------------- */
+#section0{
+    background-image: url(../img/bg1.jpg);
+    padding: 30% 0 0 0;
+}
+#section1{
+    background-image: url(../img/bg2.png);
+    padding: 6% 0 0 0;
+}
+
 .twitter-share-button{
     position: fixed !important;
     z-index: 99;
     right: 149px;
     top: 9px;
 }
+ul#year-nav{
+    margin-top:20px;
+}
 ul#year-nav li{
     width: 14px;
-    height: 100px;
+    height: 80px;
     margin: 0 0 0 19px;
 }
 
